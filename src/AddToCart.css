@@ -1,0 +1,325 @@
+.mycart-section{
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+}
+.AddCart-header h3 .product-cart-list h3{
+    font-family: 'Libre Baskerville';
+font-weight: 400;
+font-size: 1.8rem;
+padding:1.5rem;
+margin: 0;
+}
+.product-cart-list{
+    max-width: 600px;
+    width:100%;
+    min-width:400px;
+}
+.product-cart-container{
+    border: 1px solid #E6E6E6;
+    border-radius: 10px;
+    padding: 1rem;
+}
+.hm-cart-section-info{
+    display: flex;
+    gap: 30px;
+    border-bottom: 1px solid #E6E6E6;
+    padding: 1rem;
+}
+.item-image img{
+    height: 120px; 
+    width: 100px;
+    border-radius: 8px;
+}
+
+.image-content-info{
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+    align-items: flex-start;
+}
+.img-right-sect{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 80%;
+}
+
+.img-right-sect h3{
+    font-family: 'DM Sans';
+font-weight: 500;
+font-size: 24px;
+margin:0;
+color: black;
+} 
+.price-container{
+    display: flex;
+    gap:10px;
+}
+.wrong-icon-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: flex-end;
+    height: 90%;
+}
+.wrong-icon-cont span{
+    color: #FF0000;
+}
+.buttons-container{
+    display:flex;  
+    justify-content: center; 
+    align-items: center;
+    background:#F0F0F0;
+    border-radius: 20px;
+    padding:3px 10px;
+}
+.buttons-container button{
+    padding:0px;
+    background: none;
+    
+}
+button:focus {
+  outline: none;
+}
+.btn-div{
+    margin: 0 auto;
+    width: 90%;
+}
+.show-more-items{
+    background: black;
+    border-radius: 25px;
+    color: white;
+    padding: 10px;
+    width:100%;
+    margin: 20px 10px;
+    
+}
+.item-cost{
+    font-size: 15px;
+    color: black;
+    font-weight: 600;
+}
+.percentage{
+    background: #8EFF8E;
+    padding:2px 5px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+.strike-cost{
+    color:#6E6E6E;
+    font-size: 14px;
+}
+.buttons-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:5px;
+}
+.buttons-container .count{
+    color: black;
+    font-size: 20px;
+}
+/* ===== Order Container ===== */
+.order-container {
+  max-width: 440px;
+  width:100%;
+}
+
+/* ===== Main Card ===== */
+.order-summary-section {
+  background: #f5f5f5;
+  padding: 1.2rem;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Title */
+.order-summary-section h2 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+/* Price rows */
+.order-summary-section > div:first-of-type > div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+  font-size: 14px;
+}
+
+/* Divider */
+.order-summary-section hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 10px 0;
+}
+
+/* Total Row */
+.order-summary-section > div:first-of-type > div:last-child {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+/* ===== Coupon Section ===== */
+.order-summary-section input {
+  width: 70%;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid #ddd;
+  outline: none;
+}
+
+.order-summary-section input::placeholder {
+  font-size: 13px;
+}
+
+.order-summary-section input + button {
+  padding: 8px 18px;
+  border-radius: 20px;
+  border: none;
+  background: black;
+  color: white;
+  cursor: pointer;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+/* ===== Buttons Section ===== */
+.order-summary-section button {
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.order-summary-section button:hover {
+  opacity: 0.85;
+}
+
+/* Proceed Button */
+.order-summary-section > div:last-child button:first-child {
+  width: 100%;
+  padding: 10px;
+  border-radius: 30px;
+  border: none;
+  background-color: #5e6b4d; /* same green tone from screenshot */
+  color: white;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+/* Continue Shopping */
+.order-summary-section > div:last-child button:last-child {
+  width: 100%;
+  padding: 12px;
+  border-radius: 30px;
+  border: 1px solid #ccc;
+  background: white;
+}
+
+@media (max-width: 1100px){
+    .product-cart-list{
+    max-width: 500px;
+    width:100%;
+    min-width:400px;
+}
+   .order-container {
+  max-width: 380px;
+  width:100%;
+} 
+.img-right-sect h3{
+font-size: 20px;
+}
+}
+@media (max-width: 930px){
+    .product-cart-list{
+    max-width: 450px;
+    width:100%;
+}
+   .order-container {
+  max-width: 320px;
+  width:100%;
+} 
+.img-right-sect h3{
+font-size: 16px;
+}
+}
+@media (max-width: 850px){
+    .product-cart-list{
+    max-width: 430px;
+    width:100%;
+}
+   .order-container {
+  max-width: 280px;
+  width:100%;
+} 
+.wrong-icon-cont>span{
+   font-size: 10px;
+}
+.order-summary-section > div:last-child button:first-child {
+  font-size: 12px;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+.buttons-container .count{
+    font-size: 15px;
+}
+
+
+/* Continue Shopping */
+.order-summary-section > div:last-child button:last-child {
+font-size: 12px;
+  padding: 8px;
+}
+.order-summary-section input {
+  width: 70%;
+  padding: 5px;
+}
+.show-more-items{
+    padding: 8px;
+    font-size: 13px;
+}
+
+.order-summary-section input::placeholder {
+  font-size: 10px;
+}
+
+.order-summary-section input + button {
+  padding: 6px 10px;
+  font-size: 10px;
+}
+}
+
+@media (max-width: 750px){
+    .mycart-section{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1rem;
+}
+.product-cart-container{
+    margin: 20px;
+}
+.product-cart-list, .order-container{
+    max-width: 680px;
+    width:100%;
+    min-width:200px;
+}
+.input-coupon-div{
+    display: flex;
+    justify-content: space-between;
+}
+.order-summary-section input {
+  width: 75%;
+  padding: 6px 10px;
+}
+.order-summary-section input + button {
+    width: 20%;
+  padding: 6px 10px;
+  font-size: 10px;
+}
+}

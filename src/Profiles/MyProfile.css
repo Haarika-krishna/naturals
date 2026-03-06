@@ -1,0 +1,111 @@
+.personal-info-container {
+  width: 100%;
+  max-width: 600px;
+}
+
+.form-title {
+  font-family: 'Libre Baskerville',sans-serif;
+font-weight: 400;
+font-size: 24px;
+  color:#566246;
+  margin:20px 10px 10px 0px;
+  
+}
+
+.form-group {
+  margin-bottom: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+    font-family: 'DM Sans',sans-serif;
+    font-weight: 400;
+  font-size: 14px;
+  color: #6E6E6E;
+  margin-bottom: 3px;
+}
+
+/* Input container/wrapper */
+.input-line-wrapper {
+  display: flex;
+  align-items: center;
+  /* Ee okka line matrame kanapadali */
+  border-bottom: 1px solid #ccc; 
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+}
+
+.input-line-wrapper input {
+  /* Ee lines box borders ni motham remove chesthayi */
+  border: none !important;
+  outline: none !important;
+  background: transparent;
+  
+  /* Text and Width settings */
+  flex: 1;
+  font-size: 16px;
+  padding: 2px 0;
+  color: #333;
+}
+
+
+.input-line-wrapper:focus-within {
+  border-bottom: 1px solid #5b634c; /* Darker line on click */
+}
+
+.edit-icon {
+  color:#2E2E2E;
+  font-size: 10px;
+  cursor: pointer;
+}
+
+.gender-row {
+  display: flex;
+  gap: 20px;
+ 
+}
+
+.custom-radio {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  font-size: 15px;
+}
+.update-btn-container{
+   text-align: center;
+   display:flex;
+}
+.update-btn {
+  width:95%;
+  height: 35px;
+  background-color: #4E5940; 
+  font-weight:500 ;
+   font-family: 'DM Sans';
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  float: right; 
+  margin: 0 auto;
+  margin-top: 15px;
+}
+@media screen and (max-width:820px){
+.form-title {
+font-size: 1rem; 
+margin: 12px 10px 8px 0px; 
+}
+
+.form-group label {
+  font-size: 0.8rem;
+  margin-bottom: 3px;
+}
+.input-line-wrapper input {
+  font-size: 0.8rem;
+}
+.update-btn {
+    font-size:10px;
+    padding:5px 30px;
+}
+}

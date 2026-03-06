@@ -1,0 +1,139 @@
+.myaddressform-container {
+  width: 100%;
+  background: #ffffff;
+  border-radius: 10px;
+  
+}
+
+/* Title like screenshot */
+.myaddressform-title {
+  font-size: 34px;
+  font-weight: 500;
+  margin:0;
+  margin-bottom: 20px;
+  color: #4a5a3c;
+  font-family: "Georgia", serif;
+}
+
+/* Form spacing */
+.myaddressform-form {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+/* Label style */
+.myaddressform-group label {
+  font-size: 13px;
+  color: #7d7d7d;
+  display: block;
+  margin-bottom: 6px;
+}
+
+/* Underline input with icon right */
+.myaddressform-input-line {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #cfcfcf;
+  padding-bottom: 8px;
+}
+
+.myaddressform-input-line input {
+  width: 100%;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 15px;
+  color: #333;
+  padding-right: 10px;
+}
+
+/* Edit icon */
+.myaddressform-edit-icon {
+  font-size: 18px !important;
+  color: #444;
+  cursor: pointer;
+}
+
+.myaddressform-row-2 {
+  display: flex;
+  gap: 60px;
+}
+
+.myaddressform-row-2 .myaddressform-group {
+  flex: 1;
+}
+
+
+/* Radio row */
+.myaddressform-radio-row {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-top: 10px;
+}
+
+.myaddressform-radio {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  color: #555;
+}
+
+.myaddressform-radio input {
+  accent-color: #4a5a3c;
+}
+
+.myaddressform-btn-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 25px;
+}
+
+.myaddressform-cancel-btn,
+.myaddressform-update-btn {
+  width: 240px;
+  padding: 12px 0;
+  border-radius: 30px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+/* Update button (green filled) */
+.myaddressform-update-btn {
+  width: 240px;
+  padding: 12px 0;
+  border-radius: 30px;
+  border: none;
+  background: #4a5a3c;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+/* Responsive */
+@media (max-width: 768px) {
+  .myaddressform-container {
+    padding: 0;
+  }
+
+  .myaddressform-row-2 {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .myaddressform-btn-row {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .myaddressform-cancel-btn,
+  .myaddressform-update-btn {
+    width: 100%;
+    border: 1px solid #566246;
+    border-radius: 20px;
+  }
+}

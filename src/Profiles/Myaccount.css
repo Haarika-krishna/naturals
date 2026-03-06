@@ -1,0 +1,246 @@
+.myaccount-page {
+  
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  box-sizing: border-box;
+}
+.desktopView-container{
+  display:flex;
+  align-items: flex-start;
+  gap: 20px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+/* LEFT SIDEBAR */
+.account-sidebar {
+  width: 210px;
+  min-width: 220px;
+  background: #fff;
+  border: 1px solid #e6e6e6;
+  border-radius: 14px;
+  padding: 18px;
+  position: sticky;
+  height: fit-content;
+}
+.account-sidebar{
+  position: sticky;
+  align-self: flex-start;    
+  height: fit-content;
+}
+
+
+.account-sidebar h3 {
+  font-family: 'Libre Baskerville';
+font-weight: 400;
+font-style: Regular;
+font-size: 18px;
+  margin: 0 0 10px;
+  color:#566246;
+}
+
+.account-sidebar hr {
+  border: none;
+  border-top: 1px solid #eee;
+  margin: 5px 0;
+  border-top: 1px solid #566246;
+}
+
+/* Sidebar buttons */
+.account-sidebar button {
+  width: 100%;
+  text-align: left;
+  padding: 6px 0px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-bottom: 6px;
+  color: #4E4E4E;
+  font-family: 'DM Sans';
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.account-sidebar button:hover {
+  background: #f4f4f4;
+}
+
+/* Active link style */
+.active-link {
+  border: none;
+}
+
+/* RIGHT SIDE CONTENT */
+.account-right-box {
+  flex: 1;
+  background: #fff;
+  border: 1px solid #e6e6e6;
+  border-radius: 14px;
+  padding: 18px;
+  min-height: 500px; 
+  width:90%;
+  min-width:200px;
+
+}
+
+.mobile-profile-content{
+  width: 100%;
+
+}
+
+.profile-sidebar-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1001;
+  display: none;
+}
+
+.profile-sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 80%;
+  max-width: 700px;
+  height: 100%;
+  background-color: white;
+  /* padding: 20px; */
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+  transform: translateX(-100%);
+  transition: transform 0.3s ease;
+  z-index: 1002;
+  overflow-y: auto;
+}
+
+@media screen and (min-width: 751px){
+  .mobileView-profile-container{
+    display: none;
+  }
+}
+
+/* Responsive (mobile) */
+@media (max-width: 750px) {
+  .desktopView-container{
+    display:none;
+  }
+  .logout-btn{
+    text-align: center;
+  }
+  .logout-btn button{
+    background-color: #EEEFED;
+    width: 90%;
+    color: black;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom:15px; 
+}
+  .mobileView-profile-container{
+      width: 100%;
+  }
+  .myaccount-page{
+    display: none;
+  }
+  
+   .name-container{
+    max-width: 750px;
+     width:100%;
+     min-width:200px;
+      display: flex;
+      justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    background: #CBCEC6;
+    height:100px;
+    padding: 5px 20px;
+    box-sizing: border-box;
+  }
+  .icon-container{
+    width:10%;
+    text-align: center;
+    background:white;
+    border-radius: 50%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 4px;
+  }
+  .names-edit-container{
+    display:flex;
+    width:70%;
+    justify-content: space-between;
+  }
+  .name-of-user h3, .name-of-user p{
+     font-family: 'DM Sans';
+     font-weight: 400;
+     color:#2E2E2E;
+     margin: 3px 0px;
+  }
+  .name-of-user h3{
+   font-size: 18px;
+  }
+
+  .name-of-user p{
+   font-size: 14px;
+  }
+  .edit-text{
+    font-family: 'DM Sans';
+font-weight: 500;
+font-size: 16px;
+    color:#566246
+  }
+
+  .mobile-profile-content>h1{
+    font-family: 'Libre Baskerville';
+    font-weight: 400;
+    font-size: 18px;
+    color:#566246;
+    padding: 8px 15px;
+    padding-top: 0;
+    margin-top: 0;
+  }
+  .mobile-profile-content span{
+    padding-left: 16px;
+    color: #566246;
+  }
+  .account-sidebar {
+    width: 100%;
+    min-width: 100%;
+    position: relative; /* sticky off for mobile */
+    top: 0;
+    border: none;
+    padding:0;
+  }
+  .profile
+  .account-right-box {
+    width: 100%;
+  }
+  .account-sidebar h3 { 
+    font-size: 16px;
+}
+.account-sidebar button{ 
+    font-size: 16px;
+}
+.myaccount-page {
+    display: none;
+  }
+
+  .mobile-right-content {
+    width: 98%;
+    min-height: 80vh;
+    background: #fff;
+    padding: 15px;
+    padding-top: 0;
+  }
+
+  .mobile-back {
+    cursor: pointer;
+    margin-bottom: 12px;
+    color: #566246;
+  }
+}

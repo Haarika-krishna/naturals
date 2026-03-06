@@ -1,0 +1,21 @@
+#root {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body, #root {
+  overflow-x: hidden;
+  width:100%;
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body, html {
+   background-color: white;
+   margin-top: 60px;
+}
+
+html {
+  scroll-behavior: smooth;
+}

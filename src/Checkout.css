@@ -1,0 +1,166 @@
+.checkout-container{
+    width:100%;
+
+}
+.checkout-container .back-link{
+    display:flex;
+    gap: 5px;
+    margin: 10px 30px;
+    padding-top: 20px;
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 18px;
+    color: black;
+}
+
+.form-order-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+.checkout-title {
+  font-size: 28px;
+  margin: 20px;
+  font-weight: 600;
+  font-family: 'Libre Baskerville';
+  font-weight: 400;
+  font-size: 32px;
+  color: black;
+}
+
+.checkout-form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.checkout-form-container {
+  max-width: 700px;
+  width:100%;
+  padding: 30px;
+  
+}
+
+
+.form-row {
+  display: flex;
+  gap: 20px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.input-group label {
+  font-size: 14px;
+  margin-bottom: 6px;
+  color:#6E6E6E;
+  font-family: 'DM Sans';
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.input-group input,
+.input-group textarea {
+  border: none;
+  border-bottom: 1px solid #6E6E6E;
+  padding: 8px 4px;
+  font-size: 15px;
+  outline: none;
+  transition: border 0.3s ease;
+}
+
+.input-group input:focus,
+.input-group textarea:focus {
+  border-bottom: 1px solid black;
+}
+
+.save-btn {
+  margin-top: 20px;
+  padding: 12px;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.save-btn:hover {
+  background: #333;
+}
+
+.order-summary-sect{
+    max-width:550px;
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.order-summary-sect  h3{
+    margin: 5px 10px;
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 24px;
+    color: black;
+}
+.img-right-sect h3{
+    font-family: 'DM Sans';
+font-weight: 500;
+font-size: 20px;
+
+}
+.upper-order-item-container{
+   background:#F7F7F7;
+   padding:1rem;
+}
+.each-product-ordercontainer{
+    display: flex;
+    gap: 20px;
+    padding: 0.5rem;
+}
+.item-image img{
+    height: 120px; 
+    width: 100px;
+    border-radius: 8px;
+}
+.cost-container{
+    width:180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.item-price{
+    font-size: 20px;
+    color: black;
+    font-weight: 600;
+    margin:0;
+    padding: 5px;
+}
+.item-percentage{
+    display:flex;
+    background: #8EFF8E;
+    padding:2px 5px;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin:0;
+}
+.strike-price{
+    color:#6E6E6E;
+    font-size: 16px;
+    margin:0;
+}
+
+/* Mobile Responsive */
+
+@media (max-width: 768px) {
+  .form-row {
+    flex-direction: column;
+  }
+}
