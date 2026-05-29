@@ -2,7 +2,7 @@ import './About.css'
 import first_img1 from './assets/About-img-1.png';
 import above_lines from './assets/above-lines.png';
 import below_lines from './assets/below-lines.png';
-import logo from './assets/Naturals_logo.png';
+import logo from './assets/naturals_logo.jpg';
 import second_img1 from './assets/about-sec2-img1.png';
 import second_img2 from './assets/about-sec2-img2.png';
 import image_1 from './assets/about-thirdsec-img1.png';

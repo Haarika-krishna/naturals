@@ -1,4 +1,4 @@
-import logo from './assets/Naturals_logo.png'
+import logo from './assets/naturals_logo.jpg'
 import { useState, useEffect, useRef, useContext } from "react";
 import Skincare from "./Skincare";
 import Haircare from './Haircare';

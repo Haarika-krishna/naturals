@@ -59,7 +59,7 @@ import bhim from './assets/bhimupi.png';
 import visa from './assets/visa.png';
 import mastercard from './assets/mastercard.png';
 import paytm from './assets/Paytm.png';
-import logo from './assets/Naturals_logo.png'
+import logo from './assets/naturals_logo.jpg'
 import eleven_row2_img1 from './assets/eleven_row2_img1.png';
 import eleven_row2_img2 from './assets/eleven_row2_img2.png';
 import eleven_row2_img3 from './assets/eleven_row2_img3.png';
