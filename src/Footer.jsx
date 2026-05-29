@@ -53,7 +53,7 @@ const Footer = () =>{
                         <p>Privacy Policy</p><span className="ph--line-vertical-thin"></span>
                         <p>Disclaimer</p>
                     </div>
-                   <p>Copyright © 2025 All rights reserved. Designed by <a href="https://saanvikasolutions.com/" target="_blank">Saanvika Software Solutions.</a></p>
+                   <p>Copyright © 2025 All rights reserved.</p>
                 </div>
           
          </div>
