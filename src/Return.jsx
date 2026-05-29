@@ -6,13 +6,13 @@ const Return = () => {
               <h1>Return & Refund Policy</h1>
         <div className="policy-section">
             <p><span>Effective Date: 24/07/2025</span></p>
-            <p>At <span>EARTHI NATURALS,</span> we strive to offer a smooth and transparent shopping experience. Please read our Refund & Cancellation Policy carefully before making any purchase.</p>
+            <p>At <span> NATURALS,</span> we strive to offer a smooth and transparent shopping experience. Please read our Refund & Cancellation Policy carefully before making any purchase.</p>
             <div>
                 <h5>Order Cancellation</h5>
                 <ul>
                     <li>Orders can only be cancelled before they are processed or shipped.</li>
                     <li>Once an order is packed or dispatched, cancellation requests will not be accepted.</li>
-                    <li>To request a cancellation, contact our support team at <a href="mailto:privacy@earthinaturals.in">privacy@earthinaturals.in</a> with your order details.</li>
+                    <li>To request a cancellation, contact our support team at <a href="mailto:privacy@naturals.in">privacy@naturals.in</a> with your order details.</li>
                 </ul>
             </div>
             <div>
@@ -34,7 +34,7 @@ const Return = () => {
                 </ul>
             </div>
             <h5>Disputes & Support</h5>
-           <p>For any concerns or disputes regarding transactions, please contact our support team at privacy@earthinaturals.in . We are committed to resolving issues professionally and fairly.</p>
+           <p>For any concerns or disputes regarding transactions, please contact our support team at privacy@naturals.in . We are committed to resolving issues professionally and fairly.</p>
             <div>
                <h5>Changes to the Policy</h5>
                <ul>

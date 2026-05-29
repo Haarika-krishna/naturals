@@ -5,11 +5,11 @@ const PrivacyPolicy = () => {
         <div className="privacy-outer-section"> 
               <h1>Privacy Policy</h1>
         <div className="policy-section">
-            <p>At <span>EARTHI NATURALS</span>, we deeply respect your privacy and are committed to safeguarding your personal data. This Privacy Policy outlines how we collect, use, and protect your information when you interact with our website, mobile app, or services.
-             By choosing to shop with Earthi Naturals, you agree to the practices described in this policy. If you have any concerns, we encourage you to read through it carefully before using our platform.
+            <p>At <span>NATURALS</span>, we deeply respect your privacy and are committed to safeguarding your personal data. This Privacy Policy outlines how we collect, use, and protect your information when you interact with our website, mobile app, or services.
+             By choosing to shop with Naturals, you agree to the practices described in this policy. If you have any concerns, we encourage you to read through it carefully before using our platform.
              </p>
              <h5>Who We Are</h5>
-             <p><span>EARTHI NATURALS </span>is an Indian wellness brand committed to delivering safe, eco conscious beauty and personal care solutions. Our digital platforms, services, and physical deliveries are intended solely for customers within India.
+             <p><span> NATURALS </span>is an Indian wellness brand committed to delivering safe, eco conscious beauty and personal care solutions. Our digital platforms, services, and physical deliveries are intended solely for customers within India.
              </p>
              <div className="data-collect-section">
                 <h5>What Data We Collect</h5>
@@ -65,7 +65,7 @@ const PrivacyPolicy = () => {
             </div>
             <div>
                 <h5>Children’s Privacy</h5>
-                <p>Earthi Naturals does not knowingly collect data from individuals under the age of 18. Our products and services are intended for adult users.</p>
+                <p>Naturals does not knowingly collect data from individuals under the age of 18. Our products and services are intended for adult users.</p>
             </div>
             <div>
                 <h5>Your Privacy Rights</h5>
@@ -75,7 +75,7 @@ const PrivacyPolicy = () => {
                     <li>Withdraw consent to marketing communications</li>
                     <li>Request deletion of your personal data</li>
                 </ul>
-                <p>Send your requests to: <a href="mailto:privacy@earthinaturals.in">privacy@earthinaturals.in</a></p>
+                <p>Send your requests to: <a href="mailto:privacy@naturals.in">privacy@naturals.in</a></p>
             </div>
             <div>
                 <h5>Updates to This Policy</h5>
@@ -86,9 +86,9 @@ const PrivacyPolicy = () => {
                 <h5>Contact Us</h5>
                 <p>If you have questions, concerns, or wish to file a complaint regarding your data or this policy, you may contact our Privacy Officer:</p>
                 <p>Name: [Insert Name]</p>
-                <p>Email:  <a href="mailto:privacy@earthinaturals.in">privacy@earthinaturals.in</a></p>
+                <p>Email:  <a href="mailto:privacy@naturals.in">privacy@naturals.in</a></p>
                 <p>Phone: [Insert Number]</p>
-                <p>Address: Earthi Naturals, [Insert Company Address]</p>
+                <p>Address: Naturals, [Insert Company Address]</p>
             </div>
           </div>
         </div>

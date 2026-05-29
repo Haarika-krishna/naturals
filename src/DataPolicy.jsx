@@ -6,7 +6,7 @@ const DataPolicy = () => {
               <h1>Data Policy</h1>
         <div className="policy-section">
             <p><span>Effective Date: 24/07/2025</span></p>
-            <p>At <span>EARTHI NATURALS,</span> we value your privacy and are committed to protecting your personal information. This Data Policy outlines the types of data we collect, how we use it, and the measures we take to safeguard it.</p>
+            <p>At <span> NATURALS,</span> we value your privacy and are committed to protecting your personal information. This Data Policy outlines the types of data we collect, how we use it, and the measures we take to safeguard it.</p>
             <div>
                 <h5>Information We Collect</h5>
                 <p>When you use our app, we collect the following types of personal information:</p>
@@ -56,7 +56,7 @@ const DataPolicy = () => {
                     <li>Request correction of inaccurate or incomplete information</li>
                     <li>Request deletion of your data, subject to our legal obligations</li>
                  </ul>
-                 <p>To exercise any of these rights, you may contact us at privacy@earthinaturals.in</p>
+                 <p>To exercise any of these rights, you may contact us at privacy@naturals.in</p>
             </div>
             <div>
                  <h5>Data Retention</h5>
@@ -75,9 +75,9 @@ const DataPolicy = () => {
                 <h5>Contact Us</h5>
                 <p>If you have any questions, please contact us at:</p>
                 <p>Name: [Insert Name]</p>
-                <p>Email:  <a href="mailto:privacy@earthinaturals.in">privacy@earthinaturals.in</a></p>
+                <p>Email:  <a href="mailto:privacy@naturals.in">privacy@naturals.in</a></p>
                 <p>Phone: [Insert Number]</p>
-                <p>Address: Earthi Naturals, [Insert Company Address]</p>
+                <p>Address:  Naturals, [Insert Company Address]</p>
             </div>
         </div>
         </div>

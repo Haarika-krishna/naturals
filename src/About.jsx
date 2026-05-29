@@ -49,11 +49,11 @@ const About = () => {
                 </div>
                 <div className='hs-right-img-section'>
                     <h2>Our Story</h2>
-                    <p><span>Earthinaturals</span> began not as a business idea, but as a promise — a promise to care for my family with the purest, most natural ingredients possible.
+                    <p><span>naturals</span> began not as a business idea, but as a promise — a promise to care for my family with the purest, most natural ingredients possible.
                          Like many, I found myself reading labels, researching ingredients, and wondering why truly clean and gentle products were so hard to find. I wanted more than just results — I wanted honesty, simplicity, and the peace of knowing that what touched our skin and hair was safe, nurturing, and close to nature.
                          So I started small, crafting homemade blends using plant-based ingredients and traditional remedies that had stood the test of time. What began as a labor of love for my family soon grew into something bigger — something I felt called to share.
-                         That’s how Earthinaturals was born — from the heart of a home, with the belief that everyone deserves beauty that’s as honest and wholesome as nature itself.
-                         Today, every Earthinaturals product carries that same care. Pure formulations. Thoughtful sourcing. Earth-conscious choices. Because this brand will always be about more than just beauty — it’s about trust, love, and a return to what’s real.</p>
+                         That’s how naturals was born — from the heart of a home, with the belief that everyone deserves beauty that’s as honest and wholesome as nature itself.
+                         Today, every naturals product carries that same care. Pure formulations. Thoughtful sourcing. Earth-conscious choices. Because this brand will always be about more than just beauty — it’s about trust, love, and a return to what’s real.</p>
                 </div>
             </div>
          {/* third section */}
@@ -96,7 +96,7 @@ const About = () => {
             <div className='fourth-section'>
                   <div className='fourth-sec-content'>
                       <h1>Eco-Packaging That Grows With You</h1>
-                      <p>At Earthi Naturals, our care for the planet goes beyond clean ingredients it extends to our packaging too. Each product comes in a thoughtfully designed eco-pack that’s not just biodegradable, but plantable.</p>
+                      <p>At Naturals, our care for the planet goes beyond clean ingredients it extends to our packaging too. Each product comes in a thoughtfully designed eco-pack that’s not just biodegradable, but plantable.</p>
                       <span>Seed-Embedded Packaging</span>
                       <p>Our outer box contains real seeds. Once you’re done, simply place it in soil — water it, and watch a plant grow. It's beauty that truly blooms.</p>
 
@@ -127,8 +127,8 @@ const About = () => {
             </div>
 
             <div className='hm-six-container'>
-               <h1>Join the Earthi Naturals</h1>
-               <p>When you choose EarThi Naturals, you're not just buying a product — you're making a conscious choice for a cleaner, healthier lifestyle. You're supporting a brand that honors tradition, respects nature, and celebrates self-love in its purest form.</p>
+               <h1>Join the Naturals</h1>
+               <p>When you choose Naturals, you're not just buying a product — you're making a conscious choice for a cleaner, healthier lifestyle. You're supporting a brand that honors tradition, respects nature, and celebrates self-love in its purest form.</p>
                <p>We invite you to explore our range and experience the difference of true, earth-aligned beauty care. Because when your self-care is in harmony with nature, your beauty naturally blossoms.</p>
             </div>
 

@@ -6,7 +6,7 @@ const Terms = () => {
               <h1>Terms and Conditions</h1>
         <div className="policy-section">
             <p><span>Effective Date: 24/07/2025</span></p>
-            <p>Welcome to  <span>EARTHI NATURALS</span> operated by <span>SAANVIKA SOFTWARE SOLUTIONS.</span> These Terms and Conditions govern your use of our mobile application and associated services.</p>
+            <p>Welcome to  <span> NATURALS</span> operated by <span>Harika</span> These Terms and Conditions govern your use of our mobile application and associated services.</p>
             <h5>Acceptance of Terms</h5>
             <p>By accessing or using this app, you agree to be bound by these Terms and Conditions and our Privacy Policy. If you do not agree, please do not use the app.</p>
             <h5>Eligibility</h5>
@@ -42,7 +42,7 @@ const Terms = () => {
                </ul>
             </div>
             <h5>Intellectual Property</h5>
-            <p>All app content (text, images, design, trademarks, etc.) belongs to EARTHI NATURALS and may not be reused or reproduced without permission.</p>
+            <p>All app content (text, images, design, trademarks, etc.) belongs to NATURALS and may not be reused or reproduced without permission.</p>
             <h5>Privacy</h5>
             <p>Your personal information is handled in accordance with our Privacy Policy. We comply with data protection laws including GDPR where applicable.</p>
             <h5>Limitation of Liability</h5>
@@ -55,9 +55,9 @@ const Terms = () => {
                 <h5>Contact Us</h5>
                 <p>If you have any questions, please contact us at:</p>
                 <p>Name: [Insert Name]</p>
-                <p>Email:  <a href="mailto:privacy@earthinaturals.in">privacy@earthinaturals.in</a></p>
+                <p>Email:  <a href="mailto:privacy@naturals.in">privacy@naturals.in</a></p>
                 <p>Phone: [Insert Number]</p>
-                <p>Address: Earthi Naturals, [Insert Company Address]</p>
+                <p>Address: Naturals, [Insert Company Address]</p>
             </div>
         </div>
         </div>

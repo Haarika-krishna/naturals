@@ -474,7 +474,7 @@ const Home = () => {
               </div>
               <div className='right-cont-section'>
                 <h2>Our Story</h2>
-                 <p>Earthinaturals started as a promise to care for my family with pure, natural ingredients. I wanted clean, gentle products that were hard to find. I sought honesty, simplicity, and safety in what touched our skin and hair. I began crafting homemade blends with plant-based ingredients and traditional remedies. What started as a labor of love grew into a mission to share. Earthinaturals was born from a home, believing everyone deserves beauty that’s honest and wholesome. Every product reflects that care: pure formulations, thoughtful sourcing, and earth-conscious choices.</p>
+                 <p>Naturals started as a promise to care for my family with pure, natural ingredients. I wanted clean, gentle products that were hard to find. I sought honesty, simplicity, and safety in what touched our skin and hair. I began crafting homemade blends with plant-based ingredients and traditional remedies. What started as a labor of love grew into a mission to share. naturals was born from a home, believing everyone deserves beauty that’s honest and wholesome. Every product reflects that care: pure formulations, thoughtful sourcing, and earth-conscious choices.</p>
                  <button className='about-btn'>About our brand <span className="mynaui--arrow-right"></span></button>
               </div>
           </div>

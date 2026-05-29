@@ -42,7 +42,7 @@ const Contact = () =>{
       "Yes. Our products are formulated using natural, responsibly sourced ingredients."
   },
   {
-    question: "Are Earthi Naturals products safe for sensitive skin?",
+    question: "Are Naturals products safe for sensitive skin?",
     answer:
       "Absolutely. Our formulations are gentle and designed with sensitive skin in mind. However, we recommend a patch test before full use."
   },
@@ -108,7 +108,7 @@ const Contact = () =>{
       </div>
     </div>
            <div className='two-container'>
-               <p>Connect With Earthi Naturals</p>
+               <p>Connect With Naturals</p>
                <div className='returns-container'>
                     <div className='first-cont'>
                         <img src={support} alt="img" />
@@ -177,12 +177,12 @@ const Contact = () =>{
                 <div className='contact-data'>
                    <span class="material-symbols--mail"></span>
                    <p>Email Address</p>
-                   <p>support@Earthinaturals.com</p>
+                   <p>support@naturals.com</p>
                 </div>
                 <div className='contact-data'>
                    <span class="mdi--location"></span>
                    <p>Location</p>
-                   <p>Flat no 456, Kondapur, Hyderabad, Telengana , India</p>
+                   <p> Hyderabad, Telengana , India</p>
                 </div>
            </div>
 
