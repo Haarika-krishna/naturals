@@ -165,7 +165,7 @@ const Home = () => {
         </div>
         <div className='second-container'>
             <div className='data'>
-              <h1>12+</h1>
+              <h1>20+</h1>
               <p>Years of Clean Beauty</p>
             </div>
              <div className='data'>

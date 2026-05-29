@@ -35,8 +35,8 @@ const Footer = () =>{
                       <div className="fifth-part-cont">
                         <div className='fifth-inside-cont'>
                         <h3>Office Address</h3>
-                        <p>Flat no 456, Kondapur, Hyderabad, Telengana , India.</p>
-                        <p>+91 9876543216</p>
+                        <p> Hyderabad, Telengana , India.</p>
+                        <p>+91 9876543210</p>
                          <div className="logo-imges-container">
                             <span className="ic--baseline-facebook"></span>
                             <span className="mage--instagram-circle"></span>
